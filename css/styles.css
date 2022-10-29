@@ -40,17 +40,214 @@ h3{
   padding: 50px 0 20px;
 }
 
-.bottom-cloud{
+.top-lemon{
+  width: 5%;
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  left: 15%;
+  bottom: 65%;
+}
+.top-bacon{
+  width: 5%;
+  position: absolute;
+  left: 5%;
+  bottom: 65%;
 }
 
-.top-cloud{
+.top-lemon-right{
+  width: 5%;
   position: absolute;
-  right: 300px;
-  top: 40px;
+  left: 90%;
+  bottom: 65%;
 }
+.top-bacon-right{
+  width: 5%;
+  position: absolute;
+  left: 80%;
+  bottom: 65%;
+}
+
+
+.middle-carrot{
+  width: 5%;
+  position: absolute;
+  left: 25%;
+  bottom: 48%;
+}
+.middle-lemon{
+  width: 5%;
+  position: absolute;
+  left: 15%;
+  bottom: 48%;
+}
+.middle-bacon{
+  width: 5%;
+  position: absolute;
+  left: 5%;
+  bottom: 48%;
+}
+
+
+.middle-carrot-right{
+  width: 5%;
+  position: absolute;
+  left: 70%;
+  bottom: 48%;
+}
+.middle-lemon-right{
+  width: 5%;
+  position: absolute;
+  left: 90%;
+  bottom: 48%;
+}
+.middle-bacon-right{
+  width: 5%;
+  position: absolute;
+  left: 80%;
+  bottom: 48%;
+}
+
+
+
+.bottom-chicken-up{
+  position: absolute;
+  width: 5%;
+  left: 35%;
+  bottom: 28%;
+}
+.bottom-carrot-up{
+  width: 5%;
+  position: absolute;
+  left: 25%;
+  bottom: 28%;
+}
+.bottom-lemon-up{
+  width: 5%;
+  position: absolute;
+  left: 15%;
+  bottom: 28%;
+}
+.bottom-bacon-up{
+  width: 5%;
+  position: absolute;
+  left: 5%;
+  bottom: 28%;
+}
+
+
+.bottom-chicken-up-right{
+  position: absolute;
+  width: 5%;
+  left: 60%;
+  bottom: 28%;
+}
+.bottom-carrot-up-right{
+  width: 5%;
+  position: absolute;
+  left: 70%;
+  bottom: 28%;
+}
+.bottom-lemon-up-right{
+  width: 5%;
+  position: absolute;
+  left: 90%;
+  bottom: 28%;
+}
+.bottom-bacon-up-right{
+  width: 5%;
+  position: absolute;
+  left: 80%;
+  bottom: 28%;
+}
+
+
+
+
+
+
+
+
+.bottom-chicken{
+  position: absolute;
+  width: 5%;
+  left: 35%;
+  bottom: 9%;
+}
+.bottom-carrot{
+  width: 5%;
+  position: absolute;
+  left: 25%;
+  bottom: 9%;
+}
+.bottom-lemon{
+  width: 5%;
+  position: absolute;
+  left: 15%;
+  bottom: 9%;
+}
+.bottom-bacon{
+  width: 5%;
+  position: absolute;
+  left: 5%;
+  bottom: 9%;
+}
+
+
+
+.bottom-chicken-right{
+  position: absolute;
+  width: 5%;
+  left: 60%;
+  bottom: 9%;
+}
+.bottom-carrot-right{
+  width: 5%;
+  position: absolute;
+  left: 70%;
+  bottom: 9%;
+}
+.bottom-lemon-right{
+  width: 5%;
+  position: absolute;
+  left: 90%;
+  bottom: 9%;
+}
+.bottom-bacon-right{
+  width: 5%;
+  position: absolute;
+  left: 80%;
+  bottom: 9%;
+}
+
+
+.top-cloud0{
+  position: absolute;
+  right: 85%;
+  top: 9%;
+}
+
+.top-cloud1{
+  position: absolute;
+  right: 65%;
+  top: 9%;
+}
+.top-cloud2{
+  position: absolute;
+  right: 45%;
+  top: 9%;
+}
+.top-cloud3{
+  position: absolute;
+  right: 25%;
+  top: 9%;
+}
+
+.top-cloud4{
+  position: absolute;
+  right: 5%;
+  top: 9%;
+}
+
+
 
 .skill-row{
   width: 50%;
@@ -176,3 +373,7 @@ a:hover{
 
 nav ul{height:6.5rem; width:50%;}
 nav ul{overflow:hidden; overflow-y:scroll;}
+
+.salad{
+  width: 20%;
+}
