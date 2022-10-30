@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Healthy List</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/styles2.css">
+    <link rel="icon" href="favicon.ico">
+
+
+
+<style>
+/*body {
+  background-image: url(images/food.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+</style>
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud0" src="../../images/cloud.png" alt="cloud-img">
+      <img class="top-cloud1" src="../../images/cloud.png" alt="cloud-img">
+      <img class="top-cloud2" src="../../images/cloud.png" alt="cloud-img">
+      <img class="top-cloud3" src="../../images/cloud.png" alt="cloud-img">
+      <img class="top-cloud4" src="../../images/cloud.png" alt="cloud-img">
+      <h1> <a href="../../index.html">Healthy Haven</a> </h1>
+      <h2> Healthy food is all you need </h2>
+
+      <img class="top-lemon" src="../../images/lemon.png" alt="cloud-img">
+      <img class="top-bacon" src="../../images/bacon.png" alt="cloud-img">
+
+      <img class="top-lemon-right" src="../../images/lemon.png" alt="cloud-img">
+      <img class="top-bacon-right" src="../../images/bacon.png" alt="cloud-img">
+
+      <img class="middle-carrot" src="../../images/carrot.png" alt="cloud-img">
+      <img class="middle-lemon" src="../../images/lemon.png" alt="cloud-img">
+      <img class="middle-bacon" src="../../images/bacon.png" alt="cloud-img">
+
+      <img class="middle-carrot-right" src="../../images/carrot.png" alt="cloud-img">
+      <img class="middle-lemon-right" src="../../images/lemon.png" alt="cloud-img">
+      <img class="middle-bacon-right" src="../../images/bacon.png" alt="cloud-img">
+
+
+      <img class="bottom-chicken-up" src="../../images/chicken.png" alt="cloud-img">
+      <img class="bottom-carrot-up" src="../../images/carrot.png" alt="cloud-img">
+      <img class="bottom-lemon-up" src="../../images/lemon.png" alt="cloud-img">
+      <img class="bottom-bacon-up" src="../../images/bacon.png" alt="cloud-img">
+
+      <img class="bottom-chicken-up-right" src="../../images/chicken.png" alt="cloud-img">
+      <img class="bottom-carrot-up-right" src="../../images/carrot.png" alt="cloud-img">
+      <img class="bottom-lemon-up-right" src="../../images/lemon.png" alt="cloud-img">
+      <img class="bottom-bacon-up-right" src="../../images/bacon.png" alt="cloud-img">
+
+      <img class="bottom-chicken" src="../../images/chicken.png" alt="cloud-img">
+      <img class="bottom-carrot" src="../../images/carrot.png" alt="cloud-img">
+      <img class="bottom-lemon" src="../../images/lemon.png" alt="cloud-img">
+      <img class="bottom-bacon" src="../../images/bacon.png" alt="cloud-img">
+
+      <img class="bottom-chicken-right" src="../../images/chicken.png" alt="cloud-img">
+      <img class="bottom-carrot-right" src="../../images/carrot.png" alt="cloud-img">
+      <img class="bottom-lemon-right" src="../../images/lemon.png" alt="cloud-img">
+      <img class="bottom-bacon-right" src="../../images/bacon.png" alt="cloud-img">
+
+      <img class="salad" src="../../images/salad.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="target" src="../images/target.gif" alt="">
+        <h2>What's the best pick at Restaurant 1?</h2>
+        <p class="intro">Simple silly, it's to help all gym enthusiasts to suggest
+          places where you guys can eat even on your non-cheat day I mean how
+          cool is that !!!!!!! I'm still as cub now, I need more time and food to grow
+          so be patient and continue to contribute
+        </p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>Where Am I?</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.868488224917!2d138.60394521563586!3d-34.93483508037506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0cf18b4681d6d%3A0x363c90fb74e32a94!2sVeggo%20Sizzle%20-%20Vegan%20%26%20Vegetarian%20Restaurant%2C%20Adelaide!5e0!3m2!1sen!2sau!4v1667023328568!5m2!1sen!2sau"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Do you agree with the Top Pick ?</h2>
+        <h3> If not, then tell me what you like? </h3>
+        <p class="contact-message">Well nothing specific really, just want all of you guys to enjoy
+        gym and diet and delete the concept of cheat and non-cheat day</p>
+
+        <form action="https://formspree.io/f/xqkjdojl" method="POST">
+
+          <p><label> Your Opinion </label></p>
+          <p><textarea name="message"> Restaurant 1</textarea></p>
+          <!-- your other form fields go here -->
+          <button class="btn" type="submit">Send</button>
+          <button id="myBtn" class="btn" type="reset">Cancel</button>
+        </form>
+
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Maan bhi Jao Ms. Vaidehi</p>
+          </div>
+
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal
+            btn.ondblclick = function() {
+              modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+          </script>
+
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <p>Hope it makes your diet journey enjoyable</p>
+      <p class="copyright"> Made By - Friendly Neighbourhood Coder</p>
+    </div>
+
+  </body>
+</html>
