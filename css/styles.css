@@ -153,11 +153,12 @@ a{
   bottom: 0;
   background-color: #fefefe;
   width: 100%;
-  height: 70%;
+  height: 35%;
   -webkit-animation-name: slideIn;
   -webkit-animation-duration: 0.4s;
   animation-name: slideIn;
   animation-duration: 0.4s
+  padding: none;
 }
 
 /* The Close Button */
@@ -215,4 +216,8 @@ nav ul{overflow:hidden; overflow-y:scroll;}
 
 .salad{
   width: 20%;
+}
+
+.memo{
+  width: 23%;
 }
